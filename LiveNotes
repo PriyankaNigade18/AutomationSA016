@@ -1,0 +1,79 @@
+Maven Execution
+===================
+1.Using pom.xml
+2.Using CLI
+3.Using Jenkins
+
+Maven+Git+Jenkins
+
+To run we used som commands(Goals in maven)
+============================================
+https://maven.apache.org/guides/index.html
+
+1.clean : helps you to delete target folder
+2.test : helps to test
+3.install : install the configuration and run the project
+
+
+To execute add Plugins
+==========================
+1.Surefier
+https://maven.apache.org/surefire/maven-surefire-plugin/
+
+
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+2.Compiler plugins
+
+https://maven.apache.org/plugins/maven-compiler-plugin/examples/compile-using-different-jdk.html
+
+=============================
+Do update maven project
+
+================================
+
+Java Enviorment variable & Maven variable
+
+go to system enviornment variable window
+in user variable click new-->java_home and provide path of home director
+C:\Program Files\Java\jdk-15.0.1
+
+and into system enviornment--> goto path click on edit-->click on new 
+add path C:\Program Files\Java\jdk-15.0.1\bin
+save it
+
+===========================================================
+
+for Maven
+download apache maven and till home directory copy path and go to user enviornment and click on new add name ->Maven_Home
+path: C:\SelReq\apache-maven-3.8.1
+
+in system enviornment click on new add path 
+C:\SelReq\apache-maven-3.8.1\bin save ok.
+==========================================================
+open cmd and type 
+Microsoft Windows [Version 10.0.19042.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Priyanka>java -version
+java version "15.0.1" 2020-10-20
+Java(TM) SE Runtime Environment (build 15.0.1+9-18)
+Java HotSpot(TM) 64-Bit Server VM (build 15.0.1+9-18, mixed mode, sharing)
+
+C:\Users\Priyanka>mvn -version
+Apache Maven 3.8.1 (05c21c65bdfed0f71a2f2ada8b84da59348c4c5d)
+Maven home: C:\SelReq\apache-maven-3.8.1\bin\..
+Java version: 15.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-15.0.1
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\Priyanka>
+
+
+
+
+
+
+
+
+
+
