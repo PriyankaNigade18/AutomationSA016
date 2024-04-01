@@ -15,6 +15,7 @@ public class Utility
 	
 	public static void capture(WebDriver driver)
 	{
+		
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File temp=ts.getScreenshotAs(OutputType.FILE);
 		File dest=new File(System.getProperty("user.dir")+"//Screenshot//CRM"+System.currentTimeMillis()+".png");
@@ -25,7 +26,7 @@ public class Utility
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-				
+		System.out.println("Screenshot completed!");
 	}
 
 }
