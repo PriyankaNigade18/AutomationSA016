@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="LoginTest(failed)" verbose="0">
+    <classes>
+      <class name="com.SwagLabs.TestCases.LoginPageTest">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="exitReport"/>
+          <include name="setUpBrowser"/>
+          <include name="verifyTitle"/>
+          <include name="verifyUrl"/>
+          <include name="pageSetUp"/>
+          <include name="reports"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="InventoryTest(failed)" verbose="0">
+    <classes>
+      <class name="com.SwagLabs.TestCases.InventoryPageTest">
+        <methods>
+          <include name="exitReport"/>
+          <include name="verifyProductCount"/>
+          <include name="verifyAddToCart"/>
+          <include name="setUpBrowser"/>
+          <include name="verifyProductName"/>
+          <include name="pageSetUp"/>
+          <include name="reports"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.InventoryPageTest -->
+    </classes>
+  </test> <!-- InventoryTest(failed) -->
+  <test thread-count="5" name="AddToCart(failed)" verbose="0">
+    <classes>
+      <class name="com.SwagLabs.TestCases.CartPageTest">
+        <methods>
+          <include name="exitReport"/>
+          <include name="setUpBrowser"/>
+          <include name="verifyCheckout"/>
+          <include name="pageSetUp"/>
+          <include name="verifyRemove"/>
+          <include name="verifyContinueShopping"/>
+          <include name="reports"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.CartPageTest -->
+    </classes>
+  </test> <!-- AddToCart(failed) -->
+  <test thread-count="5" name="Checkout(failed)" verbose="0">
+    <classes>
+      <class name="com.SwagLabs.TestCases.CheckOutPageTest">
+        <methods>
+          <include name="exitReport"/>
+          <include name="verifyCancel"/>
+          <include name="verifyCheckout"/>
+          <include name="setUpBrowser"/>
+          <include name="pageSetUp"/>
+          <include name="reports"/>
+        </methods>
+      </class> <!-- com.SwagLabs.TestCases.CheckOutPageTest -->
+    </classes>
+  </test> <!-- Checkout(failed) -->
+</suite> <!-- Failed suite [Suite] -->
