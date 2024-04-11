@@ -25,7 +25,7 @@ public class Post_Request
 	  
 	  given()
 	  	.contentType("application/json")
-	  	.body(map)
+	  	.body(map)//request payload
 	  	
 	  .when()
 	  .post("https://reqres.in/api/users")

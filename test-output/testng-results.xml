@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-10T22:22:32 IST" name="Default suite" finished-at="2024-04-10T22:22:36 IST" duration-ms="3774">
+  <suite started-at="2024-04-11T21:48:22 IST" name="Default suite" finished-at="2024-04-11T21:48:23 IST" duration-ms="408">
     <groups>
     </groups>
-    <test started-at="2024-04-10T22:22:32 IST" name="Default test" finished-at="2024-04-10T22:22:36 IST" duration-ms="3774">
-      <class name="testAPI.Put_Delete_Request">
-        <test-method signature="deleteRequest()[pri:0, instance:testAPI.Put_Delete_Request@7205765b]" started-at="2024-04-10T22:22:33 IST" name="deleteRequest" finished-at="2024-04-10T22:22:35 IST" duration-ms="2785" status="PASS">
+    <test started-at="2024-04-11T21:48:22 IST" name="Default test" finished-at="2024-04-11T21:48:23 IST" duration-ms="408">
+      <class name="testAPI.Serialization_Deserialization">
+        <test-method signature="testSerialization()[pri:1, instance:testAPI.Serialization_Deserialization@7e7be63f]" started-at="2024-04-11T21:48:22 IST" name="testSerialization" finished-at="2024-04-11T21:48:23 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteRequest -->
-        <test-method signature="PutRequest()[pri:1, instance:testAPI.Put_Delete_Request@7205765b]" started-at="2024-04-10T22:22:35 IST" name="PutRequest" finished-at="2024-04-10T22:22:36 IST" duration-ms="924" status="PASS">
+        </test-method> <!-- testSerialization -->
+        <test-method signature="testDeserialization()[pri:2, instance:testAPI.Serialization_Deserialization@7e7be63f]" started-at="2024-04-11T21:48:23 IST" name="testDeserialization" finished-at="2024-04-11T21:48:23 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PutRequest -->
-      </class> <!-- testAPI.Put_Delete_Request -->
+        </test-method> <!-- testDeserialization -->
+      </class> <!-- testAPI.Serialization_Deserialization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

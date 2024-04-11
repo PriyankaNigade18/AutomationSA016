@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 
 
 //Older way to test api in automation
-//Latetest way is to use REstApi static import
+//Latest way is to use REstApi static import
 public class BasicREquestPattern 
 {
   @Test
