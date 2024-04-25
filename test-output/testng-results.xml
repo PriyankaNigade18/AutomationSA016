@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-24T22:16:59 IST" name="Default suite" finished-at="2024-04-24T22:17:14 IST" duration-ms="15730">
+  <suite started-at="2024-04-25T22:12:50 IST" name="Default suite" finished-at="2024-04-25T22:13:11 IST" duration-ms="20865">
     <groups>
     </groups>
-    <test started-at="2024-04-24T22:16:59 IST" name="Default test" finished-at="2024-04-24T22:17:14 IST" duration-ms="15730">
-      <class name="interactWithElement.AlertHandling">
-        <test-method signature="testAlert()[pri:0, instance:interactWithElement.AlertHandling@7e7be63f]" started-at="2024-04-24T22:16:59 IST" name="testAlert" finished-at="2024-04-24T22:17:14 IST" duration-ms="15659" status="PASS">
+    <test started-at="2024-04-25T22:12:50 IST" name="Default test" finished-at="2024-04-25T22:13:11 IST" duration-ms="20865">
+      <class name="specialScenarios.KeyWithKeyEvent">
+        <test-method signature="testTextWriting()[pri:0, instance:specialScenarios.KeyWithKeyEvent@1a18644]" started-at="2024-04-25T22:12:50 IST" name="testTextWriting" finished-at="2024-04-25T22:13:11 IST" duration-ms="20813" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAlert -->
-      </class> <!-- interactWithElement.AlertHandling -->
+        </test-method> <!-- testTextWriting -->
+      </class> <!-- specialScenarios.KeyWithKeyEvent -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

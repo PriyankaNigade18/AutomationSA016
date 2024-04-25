@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileDriverSession.DriverSessionWithOptionsClass">
+      <class name="specialScenarios.NotificationsTest">
         <methods>
-          <include name="testDriverSession"/>
+          <include name="testNotification"/>
         </methods>
-      </class> <!-- mobileDriverSession.DriverSessionWithOptionsClass -->
+      </class> <!-- specialScenarios.NotificationsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
